@@ -1,2 +1,2 @@
 # continual_learning_paper_list
-継続学習に関するリストをまとめる
+継続学習に関する論文をまとめる
