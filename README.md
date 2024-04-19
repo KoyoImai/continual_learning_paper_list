@@ -12,6 +12,8 @@
  - SCALE: Online Self-Supervised Lifelong Learning without Prior Knowledge [[paper](https://openaccess.thecvf.com/content/CVPR2023W/CLVision/html/Yu_SCALE_Online_Self-Supervised_Lifelong_Learning_Without_Prior_Knowledge_CVPRW_2023_paper.html)]
    - 疑似教師あり対照損失（Pseudo-Supervised Contrastive Loss）
    - 自己教師あり忘却損失（Self-Supervised Forgetting Loss）
-   - Online Memory Update (PSA)
+   - Online Memory Update (PSA）
+  
+## 継続学習？？
 
 
