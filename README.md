@@ -21,4 +21,6 @@
 ### 自己教師あり学習
   - EMP-SSL: Towards Self-Supervised Learning in One Training Epoch [[paper](https://arxiv.org/abs/2304.03977)]
     - 1エポックで学習可能な自己教師あり学習法
+  - Fast-MoCo: Boost Momentum-based Contrastive Learning with Combinatorial Patches [[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136860283.pdf)]
+    - 自己教師あり学習法MoCov3の収束を早めた手法
 ### 知識蒸留
