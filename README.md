@@ -17,3 +17,8 @@
 ## 継続学習？？
 
 
+## その他の関連論文（知識蒸留，自己教師あり学習など）
+### 自己教師あり学習
+  - EMP-SSL: Towards Self-Supervised Learning in One Training Epoch [[paper](https://arxiv.org/abs/2304.03977)]
+    - 1エポックで学習可能な自己教師あり学習法
+### 知識蒸留
