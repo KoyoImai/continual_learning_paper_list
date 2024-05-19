@@ -17,6 +17,10 @@
    - リプレイバッファを使用せず，過去タスクの分類層の出力が変化しないように学習することで知識の忘却を抑制
  - Dark Experience for General Continual Learning: a Strong, Simple Baseline [[paper](https://proceedings.neurips.cc/paper/2020/file/b704ea2c39778f07c617f6b7ce480e9e-Paper.pdf)]
    - 現在モデルと過去モデルのバッファ内の過去タスクのデータに対するlogitsのユークリッド距離を損失として追加
+ - Continual Learning with Deep Generative Replay [[paper](https://proceedings.neurips.cc/paper_files/paper/2017/file/0efbe98067c6c73dba1250d2beaa81f9-Paper.pdf)]
+   - 生成モデルを使用した継続学習の初期手法
+ - Meta-Learning Representations for Continual Learning [[paper](https://papers.nips.cc/paper_files/paper/2019/file/f4dd765c12f2ef67f98f3558c282a9cd-Paper.pdf)]
+   - メタ学習法MAMLをベースにした損失MAML-RepとOnline aware Meta-Learningによって学習
 
 ## オンライン継続学習
 ### 教師あり学習
