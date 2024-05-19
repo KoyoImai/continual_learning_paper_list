@@ -1,5 +1,5 @@
 # 継続学習に関する論文をまとめたリスト
-これまでに読んだ継続学習に関する論文をまとめたリスト
+これまでに読んだ継続学習に関する論文をまとめたリスト（未完成）
 ## Survey論文
 
 ## （オフライン）継続学習
@@ -9,6 +9,10 @@
  - iCaRL: Incremental Classifier and Representation Learning [[paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Rebuffi_iCaRL_Incremental_Classifier_CVPR_2017_paper.pdf)]
    - 分類器の旧クラスに対応する出力のラベルを過去モデルの出力で代用することで知識の蒸留を行う
    - クラス増加型，リプレイ＋正則化ベースのアプローチ
+ - Learning a Unified Classifier Incrementally via Rebalancing [[paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Hou_Learning_a_Unified_Classifier_Incrementally_via_Rebalancing_CVPR_2019_paper.pdf)]
+   - クラス不均衡問題に対して，コサイン正規化，忘却抑制制約，Margine Ranking lossによるクラス間分離の3つの主要な機能を用いて対処
+ - iTAML : An Incremental Task-Agnostic Meta-learning Approach [[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Rajasegaran_iTAML_An_Incremental_Task-Agnostic_Meta-learning_Approach_CVPR_2020_paper.pdf)]
+   - Inner loopによるタスクに特化した分類器の学習とOuter loopによる汎用的な分類器の学習を行うことでタスクに依存しないクラスインクリメンタル学習手法
 
 ## オンライン継続学習
 ### 教師あり学習
