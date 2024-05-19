@@ -6,6 +6,9 @@
 ### 教師あり学習
  - Learning without Memorizing [[paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Dhar_Learning_Without_Memorizing_CVPR_2019_paper.pdf)]
    - Attention mapの変化にペナルティを加える蒸留損失を導入することで破滅的忘却に対処
+ - iCaRL: Incremental Classifier and Representation Learning [[paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Rebuffi_iCaRL_Incremental_Classifier_CVPR_2017_paper.pdf)]
+   - 分類器の旧クラスに対応する出力のラベルを過去モデルの出力で代用することで知識の蒸留を行う
+   - クラス増加型，リプレイ＋正則化ベースのアプローチ
 
 ## オンライン継続学習
 ### 教師あり学習
