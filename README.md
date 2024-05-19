@@ -42,3 +42,5 @@
   - Fast-MoCo: Boost Momentum-based Contrastive Learning with Combinatorial Patches [[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136860283.pdf)]
     - 自己教師あり学習法MoCov3の収束を早めた手法
 ### 知識蒸留
+  - DisCo: Remedy Self-supervised Learning on Lightweight Models with Distilled Contrastive Learning [[paper](https://arxiv.org/pdf/2104.09124)]
+    - 自己教師あり学習の対照学習を対象とした知識蒸留法
