@@ -13,6 +13,10 @@
    - クラス不均衡問題に対して，コサイン正規化，忘却抑制制約，Margine Ranking lossによるクラス間分離の3つの主要な機能を用いて対処
  - iTAML : An Incremental Task-Agnostic Meta-learning Approach [[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Rajasegaran_iTAML_An_Incremental_Task-Agnostic_Meta-learning_Approach_CVPR_2020_paper.pdf)]
    - Inner loopによるタスクに特化した分類器の学習とOuter loopによる汎用的な分類器の学習を行うことでタスクに依存しないクラスインクリメンタル学習手法
+ - Learning without Forgetting [[paper](https://ieeexplore.ieee.org/ielaam/34/8520726/8107520-aam.pdf?tag=1)]
+   - リプレイバッファを使用せず，過去タスクの分類層の出力が変化しないように学習することで知識の忘却を抑制
+ - Dark Experience for General Continual Learning: a Strong, Simple Baseline [[paper](https://proceedings.neurips.cc/paper/2020/file/b704ea2c39778f07c617f6b7ce480e9e-Paper.pdf)]
+   - 現在モデルと過去モデルのバッファ内の過去タスクのデータに対するlogitsのユークリッド距離を損失として追加
 
 ## オンライン継続学習
 ### 教師あり学習
