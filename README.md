@@ -1,6 +1,7 @@
 # 継続学習に関する論文をまとめたリスト
 2024年（修士1年）5月から読んだ継続学習に関する論文をまとめたリスト
 ## Survey論文
+  - A Comprehensive Survey of Continual Learning: Theory, Method and Application [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10444954&tag=1)]
 
 ## （オフライン）継続学習
 ### 教師あり学習
