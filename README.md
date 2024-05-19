@@ -3,6 +3,9 @@
 ## Survey論文
 
 ## （オフライン）継続学習
+### 教師あり学習
+ - Learning without Memorizing [[paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Dhar_Learning_Without_Memorizing_CVPR_2019_paper.pdf)]
+   - Attention mapの変化にペナルティを加える蒸留損失を導入することで破滅的忘却に対処
 
 ## オンライン継続学習
 ### 教師あり学習
