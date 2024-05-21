@@ -24,6 +24,10 @@
  - Meta-Learning Representations for Continual Learning [[paper](https://papers.nips.cc/paper_files/paper/2019/file/f4dd765c12f2ef67f98f3558c282a9cd-Paper.pdf)]
    - メタ学習法MAMLをベースにした損失MAML-RepとOnline aware Meta-Learningによって学習
 
+### 教師なし学習・自己教師あり学習
+  - Self-Supervised Models are Continual Learners [[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Fini_Self-Supervised_Models_Are_Continual_Learners_CVPR_2022_paper.pdf)]
+    - 多くの自己教師あり学習に適用可能な自己教師あり継続学習のフレームワークを提案
+    
 ## オンライン継続学習
 ### 教師あり学習
 ### 教師なし・自己教師あり学習 
