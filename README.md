@@ -26,7 +26,7 @@
  - Rainbow Memory: Continual Learning with a Memory of Diverse Samples [[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Bang_Rainbow_Memory_Continual_Learning_With_a_Memory_of_Diverse_Samples_CVPR_2021_paper.pdf)]
    - 摂動に対する不確実性を基準に多様なデータをリプレイバッファに保持
  - Incremental Learning of Object Detectors without Catastrophic Forgetting [[paper](https://openaccess.thecvf.com/content_ICCV_2017/papers/Shmelkov_Incremental_Learning_of_ICCV_2017_paper.pdf)]
-   - 背景スコアの低いROIに対して知識蒸留を行うことで物体検出における破滅的忘却を阻止
+   - 物体検出において背景スコアの低いROIに対して知識蒸留を行うことで効率的に過去クラスの知識を蒸留
 
 ### 教師なし学習・自己教師あり学習
   - Self-Supervised Models are Continual Learners [[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Fini_Self-Supervised_Models_Are_Continual_Learners_CVPR_2022_paper.pdf)]
