@@ -34,6 +34,8 @@
     
 ## オンライン継続学習
 ### 教師あり学習
+ - Repeated Augmented Rehearsal: A Simple but Strong Baseline for Online Continual Learning [[paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/5ebbbac62b968254093023f1c95015d3-Paper-Conference.pdf)]
+   - 強化学習によってリアルタイムでハイパーパラメータを調整することで動的環境に対応
 ### 教師なし・自己教師あり学習 
  - The Challenges of Continuous Self-Supervised Learning [[paper](https://arxiv.org/abs/2203.12710)]
    - コサイン類似度を使用した冗長性を削減したデータ選択 (MinRed)
