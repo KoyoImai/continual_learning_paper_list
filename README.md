@@ -27,6 +27,10 @@
    - 摂動に対する不確実性を基準に多様なデータをリプレイバッファに保持
  - Incremental Learning of Object Detectors without Catastrophic Forgetting [[paper](https://openaccess.thecvf.com/content_ICCV_2017/papers/Shmelkov_Incremental_Learning_of_ICCV_2017_paper.pdf)]
    - 物体検出において背景スコアの低いROIに対して知識蒸留を行うことで効率的に過去クラスの知識を蒸留
+ - Task-Adaptive Saliency Guidance for Exemplar-free Class Incremental Learning [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_Task-Adaptive_Saliency_Guidance_for_Exemplar-free_Class_Incremental_Learning_CVPR_2024_paper.pdf)]
+   - タスク間での顕著性ドリフトを抑制するため，顕著性とドリフト正規化，補助的な知識蒸留，顕著性ノイズの注入を行う
+ - SDDGR: Stable Diffusion-based Deep Generative Replay for Class Incremental Object Detection [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Kim_SDDGR_Stable_Diffusion-based_Deep_Generative_Replay_for_Class_Incremental_Object_CVPR_2024_paper.pdf)]
+   - 物体検出に適した複雑なマルチラベル画像を生成するため，テキストプロンプト，ラベル，バウンディングボックスを使用して学習済みのStable Diffusionから画像を生成
 
 ### 教師なし学習・自己教師あり学習
   - Self-Supervised Models are Continual Learners [[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Fini_Self-Supervised_Models_Are_Continual_Learners_CVPR_2022_paper.pdf)]
@@ -43,6 +47,8 @@
    - 疑似教師あり対照損失（Pseudo-Supervised Contrastive Loss）
    - 自己教師あり忘却損失（Self-Supervised Forgetting Loss）
    - Online Memory Update (PSA）
+ - Speeding Up Online Self-Supervised Learning by Exploiting Its Limitations [[paper](https://www.dagm-gcpr.de/fileadmin/dagm-gcpr/pictures/2023_Heidelberg/Paper_MainTrack/043.pdf)]
+   - 学習率を動的に変更することで自己教師あり学習の収束の遅さに対処
   
 ## 継続学習？？
 
